@@ -17,12 +17,10 @@
       </ul>
       <form action="mailto:thisisatest@gmail.com" method="post" enctype="text/plain">
         <input type="date"><br>
-        <label>Your Name:</label>
-        <input type="text" name="Your Name" value=""><br>
-        <label>Your Email:</label>
-        <input type="email" name="Your Email" value=""><br>
-        <label>Your Message:</label><br>
-        <textarea name="Your Message" rows="10" cols="30"></textarea><br>
+        <!-- removing the labels from the inputs. Adding a placeholder attribute to the input element to make the labels of each box stay inside the box. --> 
+        <input type="text" name="Your Name" placeholder="Your Name" value=""><br>
+        <input type="email" name="Your Email" placeholder="Your Email"  value=""><br>
+        <textarea name="Your Message" rows="10" cols="30" placeholder="Your Message"></textarea><br>
         <input type="submit">
       </form>
     <hr>
